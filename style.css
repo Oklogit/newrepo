@@ -1,0 +1,135 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.classification,
+.reviews {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.slash {
+  display: inline;
+  opacity: 0.6;
+  padding: 0 8px;
+}
+
+.precise {
+  display: flex;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.layout {
+  padding: 3rem 0 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.description {
+  padding: 1.3em 0 0 0;
+}
+
+h1 {
+  padding: 1rem 0 1rem 0;
+  margin: 1.2rem 0;
+}
+.fa-star {
+  color: rgba(252, 233, 62, 0.973);
+}
+
+.xstar{
+  color: rgb(190, 189, 189);
+}
+
+.fa-question-circle {
+  color: rgb(202, 202, 202);
+  display: inline;
+  margin: 0 1rem;
+}
+
+.fa-check {
+  color: rgb(12, 199, 12);
+}
+
+.price {
+  display: inline;
+  font-weight: 500;
+}
+
+.bag {
+  display: none;
+}
+
+p {
+  color: grey;
+  font-size: 0.9rem;
+}
+.status{
+  margin: 1.4rem 0;
+}
+.sizes {
+  display: flex;
+  flex-wrap: nowrap;
+}
+h4{
+  padding-bottom: 0.5rem;
+}
+.sizes div {
+  border: 3px solid rgb(117, 34, 117);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-right: 0.3rem;
+  flex: 0 1 900px;
+}
+
+button {
+  background-color: rgb(117, 34, 117);
+  padding: 0.6rem 4rem;
+  border: transparent;
+  border-radius: 0.3rem;
+  cursor: pointer;
+margin-top: 2.5rem ;
+}
+
+.guarantee{
+  cursor: pointer;
+  margin: 2rem 0;
+}
+.bottom-panel{
+  text-align: center;
+}
+.img-div img {
+  display: inline-block;
+  width: 100%;
+}
+
+.sizes div:focus {
+  border: 3px solid rgb(116, 117, 34);
+}
+
+@media screen and (max-width : 730px) {
+  *{
+    background-color: red;
+  }
+  .sizes{
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .bag{
+    width: 100%;
+    display: block;
+  }
+  .mid-img{
+  margin: 1rem; 
+  border: solid 2px blue; 
+  }
+
+  .img-div{
+    display: none;
+  }
+}
